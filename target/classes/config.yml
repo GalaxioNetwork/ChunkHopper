@@ -1,0 +1,62 @@
+messages:
+  placed-message: "&aChunk hopper has been placed!"
+  destroyed-message: "&cChunk hopper has been destroyed!"
+  failed-placed-message: "&cAlready have chunk hopper in this chunk!"
+  not-owner-message: "&cYou are not allowed to touch this chunk hopper!"
+  filtered-message: "&aItem has been added to filtered list!"
+  already-filtered-message: "&cItem is already filtered!"
+  received-message: "&aYou received %amount% chunk hoppers!"
+  give-message: "&aYou have given %amount% chunk hoppers to %player%!"
+  reload-message: "&aConfiguration has been reloaded!"
+  removed-filtered-message: "&eItem has been removed from filtered list!"
+  invalid-player-message: "&cInvalid player!"
+  invalid-amount-message: "&cInvalid amount!"
+  invalid-world-message: "&cYou cannot put a chunk hopper in this world!"
+  invalid-command-message: "&cInvalid command!"
+  no-permission-message: "&cYou have no permission to use this command!"
+  withdraw-message: "&eYou have successfully withdrawn $%amount%"
+  force-withdraw-message: "&eA staff destroyed your chunk hopper! you have withdrawn %amount% from your total earnings!"
+  limit-message: "&cYou have reached your chunk hopper limit!"
+  item-not-allowed-message: "&cThat item is not allowed to be filtered!"
+  can-modify-message: "&eYou can now modify other players chunk hopper!"
+  not-modify-message: "&cYou can no longer modify other players chunk hopper!"
+  modify-message: "&e/chunkhopper bypass to modify other players chunk hopper!"
+
+# All the worlds where Chunk Hoppers are functional
+worlds:
+  - world
+
+# For those who don't have ShopGUIPlus plugin and want to use the auto sell feature using Essentials Worth
+essentials-worth: false
+auto-sell: true
+auto-kill: true
+# Set it to false if you don't want the player as the killer when auto kill is enabled. Ignore this if auto kill is false
+player-as-killer: true
+pickup-delay: 20
+pickup-sound: true
+# The amount of items per chunk hopper transfer. (set to 0 to disable it)
+per-transfer-amount: 0
+pickup-particles: true
+# What defines here will be the chunk hopper limit in the server per player (Except for OP Players),
+# even if they have chunkhoppers.limit.21, if the server limit is 20, then they still cant go beyond that
+hopper-limit: 20
+displayname: "&b&lChunk Hopper"
+lore:
+  - "&7Collects ground items"
+  - "&7within a chunk."
+########################################################
+#                       Item list                      #
+########################################################
+# Allow custom items to the filtered list like other plugins unique items
+allow-custom-items: true
+# Items that are allowed to be sold. ignore this if you have no ShopGuiPlus or if you're not going to use the auto sell feature
+allowed-items:
+  - BONE
+  - CACTUS
+  - ROTTEN_FLESH
+  - STRING
+  - GUNPOWDER
+  - SUGAR_CANE
+  - BEEF
+  - PORKCHOP
+  - NETHER_WART

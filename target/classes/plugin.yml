@@ -1,0 +1,15 @@
+name: ChunkHopper
+version: '1.0-SNAPSHOT'
+main: me.bugsum.chunkHopper.ChunkHopper
+api-version: '1.21'
+authors: [ bugsum ]
+description: An Easy to Use Chunk Hopper plugin made for Galaxio Network
+softdepend:
+  - Vault
+  - WorldEdit
+  - FastAsyncWorldEdit
+  - WorldGuard
+commands:
+  chunkhopper:
+    description: Base command
+    aliases: [ch, hopper]
